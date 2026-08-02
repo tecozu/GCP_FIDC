@@ -9,7 +9,7 @@ O resultado final esperado é um relatório BI para gestor do fundo e relatório
 
 - [x]  Container docker com minio s3
 - [x]  Habilitar bucket para envio de arquivos via api
-- [ ]  Script python para envio dos arquivos no bucket
+- [x]  Script python para envio dos arquivos no bucket
 - [ ]  Leitura dos arquivos direto no s3 via bigquery (raw)
 - [ ]  Pequena transformação para carregar na tabela de stg (Validação de dados + particionamento por data)
 - [ ]  Transformação usando dbt (uniao dos arquivos transformando em movimentações)

@@ -1,1 +1,10 @@
+# Ambiente e credenciais
 .env
+.venv/
+
+# Dados de carga
+mock_cliente/seeds/**/*.txt
+mock_cliente/seeds/**/*.csv
+
+# Mantém estrutura das pastas
+!mock_cliente/seeds/**/enviados/.gitkeep
